@@ -15,6 +15,17 @@ A modern web application for searching and summarizing content from Amazon Bedro
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
+## 📐 Detailed Architecture
+
+![Application Architecture](assets/images/app-architecture.png)
+
+The diagram above shows the detailed architecture and request flow between components:
+- Frontend React application served on port 3000
+- NGINX reverse proxy handling routing and static file serving
+- FastAPI backend service running on port 8000
+- AWS Bedrock service integration for knowledge base operations
+
+
 ## 🚀 Features
 
 ### Frontend (React + TypeScript)
